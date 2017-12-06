@@ -1,0 +1,14 @@
+engines:
+  structure:
+    enabled: true
+    channel: "go-beta"
+  duplication:
+    enabled: true
+    channel: go-beta
+    config:
+      languages:
+        go:
+          mass_threshold: 30
+exclude_patterns:
+  - "*_tests.go"
+  - "vendor/"
